@@ -30,8 +30,8 @@ Then, make sure to install all the required Python modules using `pip`:
 
 **NOTE**: This step can be skipped if you've cloned the repository and install all Python dependencies.
 
-## To run the test use python -m pytest -v test/test_cases.py
-## To see the print statement use python -m pytest -s test/test_cases.py
+#To run the test use python -m pytest -v test/test_cases.py
+#To see the print statement use python -m pytest -s test/test_cases.py
 
 ### Execute All Tests
 
