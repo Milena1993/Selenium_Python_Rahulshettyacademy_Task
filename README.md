@@ -3,7 +3,6 @@
 ## Objective
 
    *  Navigate to the page: https://www.rahulshettyacademy.com/AutomationPractice/
-   *  Actions:
    *  Select the radio button
    *  Select an item from the static dropdown
    *  Select an item from the dynamic dropdown
