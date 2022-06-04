@@ -41,8 +41,7 @@ class Elements:
         drp = Select(dropdown_element_check)
         drp.select_by_visible_text(LocatorsPath.dropdown_option1)
         return drp.first_selected_option.get_attribute("value")
-        
-       
+              
     def checkbox_elements_functionality_check(self):
         checkbox_element_1_check = self.driver.find_element_by_id(LocatorsPath.checkbox_element_1)
         checkbox_element_1_check.click()
@@ -62,9 +61,7 @@ class Elements:
             if self.driver.title == "QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy":
                 return self.driver.title
             self.driver.close()
-                
-       
-
+                     
     def open_tab_functiionality_check(self):
         open_tab_button_check = self.driver.find_element_by_id(LocatorsPath.open_tab_button)
         open_tab_button_check.click()
@@ -75,7 +72,6 @@ class Elements:
                 return self.driver.title
             self.driver.close()
                 
-
     def alert_input_field_functiionality_check_accept(self, input_name):
         alert_button_check = self.driver.find_element_by_id(LocatorsPath.alert_button_input_field)
         alert_button_check.send_keys(input_name)
@@ -98,7 +94,6 @@ class Elements:
         if msg == "Hello Milena, Are you sure you want to confirm?":
             return msg
         
-    
     def mouse_hover_functionality_check(self):
         mouse_hover_button = self.driver.find_element_by_xpath(LocatorsPath.mouse_hover_button)
         top_button = self.driver.find_element_by_css_selector(LocatorsPath.mouse_hover_top_button)
